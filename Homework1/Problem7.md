@@ -1,6 +1,6 @@
 # Homework 1
-## Problem 6
-**Routine Name:**           Compute The Analytic Solution of the Logistic Differential Equation
+## Problem 7
+**Routine Name:**           Spring Mass Systems
 
 **Author:** Kensie Carr
 
