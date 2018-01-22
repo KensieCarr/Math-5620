@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Homework 1](https://KensieCarr.github.io/Math-5620/Homework1/index)
+[Homework 1](https://KensieCarr.github.io/Math-5620/Solution Manual/index)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
