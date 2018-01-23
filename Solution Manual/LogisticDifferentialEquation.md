@@ -7,17 +7,21 @@
 **Language:** C++
 
 **Description/Purpose:** 
-This routine will compute the analytic solution of the following logistic differenial equation. dP/dt = alpha * P - beta P^2 for the parameters, alpha and beta, and initial condition P(0) = P_0.
+This routine will compute the analytic solution of the following logistic differenial equation. dP/dt = alpha * P - beta P^2 for the parameters, alpha and beta, and initial condition P(0) = P_0 and give us a solution at time t
 **Input:** 
-P_0
-alpha
-beta
+P_0 = P(0) initial condition
+a = scalar alpha
+b = scalar beta
 
 **Output:** 
 t = value of the solution at an arbitrary point
 
 **Usage/Example:**
+Say I adopt a population of dogs P(t) satisfying the logistic equation dP/dt = aP - bP^2. I take 120 of them to an island and leave them there. There are 8 births per month and 6 deaths per month at time t = 0. How many months does it take for P(t) to reach 95% of the limiting population M?
+![Example Logistic](https://KensieCarr.github.io/Math-5620/Solution Manual/LogisticEquation.JPG)
+It takes 27.69 months.
 
 **Implementation/Code:** 
+
 
 **Last Modified:** January/2018
