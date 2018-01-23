@@ -21,8 +21,8 @@ t = analytic solution at time t
 
 **Usage/Example:**
 Consider the initial value problem my'' + cy' + ky = F(t), y(0) = 0, y'(0) = 0 modeling the motion of a spring-mass-dashpot system initially at rest and subjected to an applied force F(t), where the unit of force is the Newton (N). Assume that m = 2 kilograms, c = 8 kilograms per second, k = 80 Newtons per meter, and F(t) = 30sin(6t) Newtons. Compute the analytic solution for time t.
-![Spring Mass1](https://KensieCarr.github.io/Math-5620/softwaremanual/SpringMass1.JPG)
-![Spring Mass2](https://KensieCarr.github.io/Math-5620/softwaremanual/SpringMass2.JPG)
+![Spring Mass1](https://KensieCarr.github.io/Math-5620/SoftwareManual/SpringMass1.JPG)
+![Spring Mass2](https://KensieCarr.github.io/Math-5620/SoftwareManual/SpringMass2.JPG)
 
 Using this equation you can plug in any time t and you will get the analytic solution.
 

@@ -1,11 +1,11 @@
 # Software Manual
 
 ## Basic Routines
-[Machine Epsilon](https://KensieCarr.github.io/Math-5620/softwaremanual/FindMachineEpsilon)
+[Machine Epsilon](https://KensieCarr.github.io/Math-5620/SoftwareManual/FindMachineEpsilon)
 
-[Compute Absolute Error](https://KensieCarr.github.io/Math-5620/softwaremanual/ComputeAbsoluteError)
+[Compute Absolute Error](https://KensieCarr.github.io/Math-5620/SoftwareManual/ComputeAbsoluteError)
 
-[Compute Relative Error](https://KensieCarr.github.io/Math-5620/softwaremanual/ComputeRelativeError)
+[Compute Relative Error](https://KensieCarr.github.io/Math-5620/SoftwareManual/ComputeRelativeError)
 
 ## Routines for Elliptic Problems
 
@@ -14,7 +14,7 @@
 ## Routines for Hyperbolic Problems
 
 ## Test Problems
-[Compute The Analytic Solution of the Logistic Differential Equation](https://KensieCarr.github.io/Math-5620/softwaremanual/LogisticDifferentialEquation)
+[Compute The Analytic Solution of the Logistic Differential Equation](https://KensieCarr.github.io/Math-5620/SoftwareManual/LogisticDifferentialEquation)
 
-[Spring Mass Systems](https://KensieCarr.github.io/Math-5620/softwaremanual/SpringMassSystems)
+[Spring Mass Systems](https://KensieCarr.github.io/Math-5620/SoftwareManual/SpringMassSystems)
 ## Appendix
