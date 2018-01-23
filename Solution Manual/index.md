@@ -3,7 +3,9 @@
 ## Basic Routines
 [Machine Epsilon](https://KensieCarr.github.io/Math-5620/Solution Manual/Find Machine Epsilon)
 
-[Compute Absolute and Relative Error](https://KensieCarr.github.io/Math-5620/Solution Manual/Compute Absolute and Relative Error)
+[Compute Absolute Error](https://KensieCarr.github.io/Math-5620/Solution Manual/ComputeAbsoluteError)
+
+[Compute Relative Error](https://KensieCarr.github.io/Math-5620/Solution Manual/ComputeRelativeError)
 
 ## Routines for Elliptic Problems
 
