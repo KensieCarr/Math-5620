@@ -20,4 +20,4 @@ t = value of the solution at an arbitrary point
 
 **Implementation/Code:** 
 
-**Last Modified:** September/2017
+**Last Modified:** January/2018
