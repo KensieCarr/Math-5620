@@ -23,7 +23,7 @@ Consider the initial value problem my'' + cy' + ky = F(t), y(0) = 0, y'(0) = 0 m
 ![Spring Mass1](https://KensieCarr.github.io/Math-5620/Solution Manual/SpringMass1.JPG)
 ![Spring Mass2](https://KensieCarr.github.io/Math-5620/Solution Manual/SpringMass2.JPG)
 Using this equation you can plug in any time t and you will get the analytic solution.
-
+_Problem 5 taken from http://people.math.umass.edu/~rsellis/Math331/Fall-2016/Homework_Set_7-Webwork-Solutions.pdf_
 **Implementation/Code:** 
 
 **Last Modified:** January/2018
