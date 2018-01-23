@@ -20,9 +20,12 @@ E = Absolute Error
 Suppose that z = 2.2, while some computed solution y = 2.20345. The absolute error can be computed using |E| = |y - z|. In this case the absolute error is 0.00345 or 3.45 x 10^{-3}
 
 **Implementation/Code:** 
-int absoluteError (int solution, int computedSolution) {
-    int absoluteError = |computedSolution - solution|;
+```c++
+int absoluteError (int solution, int computedSolution) { 
+    int absoluteError = abs(computedSolution - solution);
     return absoluteError;
 }
+```
+[full code](https://KensieCarr.github.io/Math-5620/Solution Manual/absolute_error.cpp)
 
 **Last Modified:** January/2018
