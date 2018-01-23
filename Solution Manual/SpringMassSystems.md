@@ -10,11 +10,11 @@
 This routine will compute the second order, linear, constant coefficient, differential equation my'' + cy' + ky = f(t).  
 
 **Input:** 
-y(0) = y_0 initial condition
-y'(0) = v_0 initial condition
-m = constant
-c = constant
-k = constant
+y_0 = y(0) initial condition
+v_0 = y'(0) initial condition
+m = scalar m
+c = scalar c
+k = scalar k
 
 **Output:** 
 t = analytic solution at time t
