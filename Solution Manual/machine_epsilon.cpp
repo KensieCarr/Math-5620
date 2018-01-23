@@ -1,8 +1,19 @@
-#include <stdio.h>
-#include <float.h>
+#include <iostream>
+#include <cfloat>
+using namespace std;
 
-int main(void) {
-  printf("%a\n", FLT_MAX);
-  printf("FLT_MAX is 0x1.fffffep+127 therefore machine epsilon must be:\n");
-  printf("           0x0.000002p0 that is approx %e in decimal\n", 0x0.000002p0);
+void machineEpsilon(float EPS);
+
+int main() {
+  machineEpsilon(0.5);
+  return 0;
+}
+
+void machineEpsilon(float EPS) {
+  float prev_epsilon;
+  while ((1 + EPS) != 1) {
+    prev_epsilon = EPS;
+    EPS /= 2;
+  }
+  cout << "Machine Epsilon is: " << prev_epsilon << endl;
 }
