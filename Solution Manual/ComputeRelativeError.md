@@ -20,9 +20,12 @@ E = Absolute Error
 Suppose that z = 2.2, while some computed solution y = 2.20345. The relative error is defined by |E| = |(y - z)/z|. In this example the relative error is 1.57 x 10^{-3}.
 
 **Implementation/Code:** 
+```c++
 int relativeError (int solution, int computedSolution) {
-    int relativeError = |(computedSolution - solution)/(solution)|;
+    int relativeError = abs((computedSolution - solution)/(solution));
     return relativeError;
 }
+```
+[full code](https://KensieCarr.github.io/Math-5620/Solution Manual/relative_error.cpp)
 
 **Last Modified:** January/2018
