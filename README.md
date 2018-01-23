@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Solution Manual](https://KensieCarr.github.io/Math-5620/Solution Manual/index)
+[Software Manual](https://KensieCarr.github.io/Math-5620/softwaremanual/index)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

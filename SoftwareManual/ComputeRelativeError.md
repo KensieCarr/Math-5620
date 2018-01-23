@@ -26,6 +26,6 @@ int relativeError (int solution, int computedSolution) {
     return relativeError;
 }
 ```
-[full code](https://KensieCarr.github.io/Math-5620/Solution Manual/relative_error.cpp)
+[full code](https://KensieCarr.github.io/Math-5620/softwaremanual/relative_error.cpp)
 
 **Last Modified:** January/2018

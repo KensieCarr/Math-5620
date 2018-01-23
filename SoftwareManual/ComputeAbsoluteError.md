@@ -26,6 +26,6 @@ int absoluteError (int solution, int computedSolution) {
     return absoluteError;
 }
 ```
-[full code](https://KensieCarr.github.io/Math-5620/Solution Manual/absolute_error.cpp)
+[full code](https://KensieCarr.github.io/Math-5620/softwaremanual/absolute_error.cpp)
 
 **Last Modified:** January/2018
