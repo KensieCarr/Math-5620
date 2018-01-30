@@ -11,9 +11,13 @@ This routine will compute the second order, linear, constant coefficient, differ
 
 **Input:** 
 y_0 = y(0) initial condition
+
 v_0 = y'(0) initial condition
+
 m = scalar m
+
 c = scalar c
+
 k = scalar k
 
 **Output:** 
