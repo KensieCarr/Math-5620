@@ -2,18 +2,18 @@
 #include <cmath>
 using namespace std;
 
-int absoluteError (int solution, int computedSolution);
+float absoluteError (float solution, float computedSolution);
 
 int main() {
-    int solution;
-    int computedSolution;
+    float solution;
+    float computedSolution;
     cin >> solution;
     cin >> computedSolution;
     cout << absoluteError(solution,computedSolution);
     return 0;
 }
 
-int absoluteError (int solution, int computedSolution) { 
-    int absoluteError = abs(computedSolution - solution);
+float absoluteError (float solution, float computedSolution) { 
+    float absoluteError = abs(computedSolution - solution);
     return absoluteError;
 }
