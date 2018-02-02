@@ -21,6 +21,8 @@ This routine will initialize the information needed for the elliptic ordinary di
 
 **Implementation/Code:** 
 
+\( u'' = f(x),\ x \in (a,b) \)
+
 
 **Last Modified:** February/2018
 
