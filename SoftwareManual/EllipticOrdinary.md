@@ -20,9 +20,9 @@ This routine will initialize the information needed for the elliptic ordinary di
 
 
 **Implementation/Code:** 
-
+{% raw %}
 \( u'' = f(x),\ x \in (a,b) \)
-
+{% endraw %}
 
 **Last Modified:** February/2018
 
