@@ -26,11 +26,9 @@ a =
 b = 
 
 {% raw %}
-u_a =
-{% endraw %}
+{\\ u_a = \\}
 
-{% raw %}
-u_b =
+{\\ u_b = \\}
 {% endraw %}
 
 **Output:** 
