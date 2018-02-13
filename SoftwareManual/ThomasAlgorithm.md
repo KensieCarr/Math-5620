@@ -79,6 +79,8 @@ Given the tridiagonal system Ax = b I can solve x using the Thomas Algorithm.
       \\) 
 {% endraw %}
 
+_Example 11.1 taken from http://www.fkm.utm.my/~mohsin/sme3023/gauss.seidel.pdf_
+
 **Implementation/Code:** 
 
 **Last Modified:** February/2018
