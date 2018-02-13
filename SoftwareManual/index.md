@@ -7,6 +7,10 @@
 
 [Compute Relative Error](https://KensieCarr.github.io/Math-5620/SoftwareManual/ComputeRelativeError)
 
+[Coefficients Finite Difference Approximation](https://KensieCarr.github.io/Math-5620/SoftwareManual/CoefficientsFinite)
+
+[Norm of a Vector](https://KensieCarr.github.io/Math-5620/SoftwareManual/NormOfVector)
+
 ## Linear Solvers
 [Thomas Algorithm](https://KensieCarr.github.io/Math-5620/SoftwareManual/ThomasAlgorithm) 
 
@@ -15,6 +19,10 @@
 [Jacobi Iteration](https://KensieCarr.github.io/Math-5620/SoftwareManual/JacobiIteration)
 
 ## Routines for Elliptic Problems
+
+[Elliptic Ordinary Differential Equation](https://KensieCarr.github.io/Math-5620/SoftwareManual/EllipticOrdinary)
+
+[Finite Difference Approximate](https://KensieCarr.github.io/Math-5620/SoftwareManual/FiniteDifferenceApproximate)
 
 ## Routines for Parabolic Problems
 
