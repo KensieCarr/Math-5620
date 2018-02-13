@@ -46,7 +46,7 @@ Given the tridiagonal system Ax = b I can solve x using the Thomas Algorithm.
      -0.49 & 1.550 & -1 & \\\ 
      & -0.645 & 1.395 & -1 \\\ 
      & & -0.717 & 1.323
-      \end{matrix} \right] 
+      \end{matrix} \right] \\\
     \text{Putting this matrix into LU decomposition} \\\ 
     [A] = [L][U] =
     \left[ \begin{matrix}
@@ -60,7 +60,7 @@ Given the tridiagonal system Ax = b I can solve x using the Thomas Algorithm.
       & 1.550 & -1 & \\\ 
       & & 1.395 & -1 \\\ 
       & & & 1.323
-    \end{matrix} \right]
+    \end{matrix} \right] \\\ 
     \text{Now figuring out what the right side of our equation is} \\\
     b_2 = 0.8-(-0.49)40.8 = 20.8 \\\ 
     b_3 = 0.8-(-0.645)20.8 = 14.221 \\\ 
@@ -71,7 +71,7 @@ Given the tridiagonal system Ax = b I can solve x using the Thomas Algorithm.
     X_3 = \frac{14.221 -(-1)159.480}{1.395} = 124.538 \\\ 
     X_2 = \frac{20.800 -(-1)124.538}{1.550} = 93.778 \\\ 
     X_1 = \frac{40.800-(-1)93.778}{2.040} = 65.970 \\\ 
-    \text{Therefore}
+    \text{Therefore} \\\
     x = \left[ \begin{matrix} 65.970 \\\ 93.778 \\\ 124.538 \\\  159.480 \end{matrix} \right]
       \\) 
 {% endraw %}
