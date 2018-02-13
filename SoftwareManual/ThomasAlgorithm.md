@@ -29,13 +29,13 @@ Given the tridiagonal system Ax = b I can solve x using the Thomas Algorithm.
 {% raw %}
 \( 
     \left[ \begin{matrix} 
-    2.04 & -1 &  &  \\
-    -1 & 2.04 & -1 &  \\ 
-     & -1 & 2.04 & -1 \\ 
+    2.04 & -1 &  &  \\\
+    -1 & 2.04 & -1 &  \\\ 
+     & -1 & 2.04 & -1 \\\ 
      &  & -1 & 2.04
      \end{matrix} \right]
-     \left[ \begin{matrix} X_1 \\ X_2 \\ X_3 \\ X_4 \end{matrix} \right]
-     = \left[ \begin{matrix} 40.8 \\ 0.8 \\ 0.8 \\ 200.8 \end{matrix} \right]
+     \left[ \begin{matrix} X_1 \\\ X_2 \\\ X_3 \\\ X_4 \end{matrix} \right]
+     = \left[ \begin{matrix} 40.8 \\\ 0.8 \\\ 0.8 \\\ 200.8 \end{matrix} \right]
     \)
 
 {% endraw %}
