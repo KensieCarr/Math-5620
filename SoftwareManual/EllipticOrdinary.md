@@ -40,7 +40,6 @@ If I'm given the data
 {% raw %}
 \\(
     a = 0,\ b = 0\ ,f(x) = \sin(\pi x), u_a = 2.5, u_b = 5.0 \\\
-     \\)
 \text{then plugging it into our ordinary differential equation I get} \\\
 
 u'' = \sin(\pi x),\ x \in (0,0) \\\
@@ -53,6 +52,8 @@ u(b) = u_b \\\
 \\\
 \text{Using a finite difference approximation of u''(x) we can write} \\\
 u''(x) = \frac{u(x-h) - 2u(x) + u(x+h)}{h^2}
+
+\\)
 
 {% endraw %}
 
