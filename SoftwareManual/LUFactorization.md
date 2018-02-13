@@ -13,9 +13,15 @@ This routine will solve a linear system of equations with tridiagonal coefficien
 
 **Input:**
 
+A = tridiagonal matrix
+
+b = vector
 
 **Output:** 
 
+x = vector
+
+r = Relationship between the size of the matrices as n varies and the time it takes to compute the solution.
 
 **Usage/Example:**
 
