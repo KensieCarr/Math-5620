@@ -23,10 +23,10 @@ r = Relationship between the size of the matrices as n varies and the time it ta
 
 **Usage/Example:**
 
-{% raw %}
 
 Given the tridiagonal system Ax = b I can solve x using the Thomas Algorithm.
 
+{% raw %}
 \\( 
     \left[ \begin{matrix} 
     2.04 & -1 &  &  \\ 
