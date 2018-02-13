@@ -11,11 +11,13 @@
 This routine will solve the linear system using the Thomas algorithm. It was also determine the relationship between the size of the matrices as n varies and the time it takes to compute the solution.
 
 **Input:**
+
 A = tridiagonal matrix
 
 b = vector
 
 **Output:** 
+
 x = vector
 
 r = Relationship between the size of the matrices as n varies and the time it takes to compute the solution.
@@ -41,7 +43,8 @@ Given the tridiagonal system Ax = b I can solve x using the Thomas Algorithm.
      e_3 = \frac{-1}{1.550} = -0.645 \\\ 
      f_3 = 2.04 -(-0.645)(-1) = 1.395 \\\ 
      e_4 = \frac{-1}{1.395} = -0.717 \\\ 
-     f_4 = 2.04 - (-0.717)(-1) = 1.323  \text{Now putting these numbers into our new matrix} \\\ 
+     f_4 = 2.04 - (-0.717)(-1) = 1.323 \\\ 
+      \text{Now putting these numbers into our new matrix} \\\ 
      \left[ \begin{matrix} 2.04 & -1 & & \\\ 
      -0.49 & 1.550 & -1 & \\\ 
      & -0.645 & 1.395 & -1 \\\ 
