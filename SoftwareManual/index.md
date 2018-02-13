@@ -7,6 +7,13 @@
 
 [Compute Relative Error](https://KensieCarr.github.io/Math-5620/SoftwareManual/ComputeRelativeError)
 
+## Linear Solvers
+[Thomas Algorithm](https://KensieCarr.github.io/Math-5620/SoftwareManual/ThomasAlgorithm) 
+
+[LU Factorization](https://KensieCarr.github.io/Math-5620/SoftwareManual/LUFactorization)
+
+[Jacobi Iteration](https://KensieCarr.github.io/Math-5620/SoftwareManual/JacobiIteration)
+
 ## Routines for Elliptic Problems
 
 ## Routines for Parabolic Problems
