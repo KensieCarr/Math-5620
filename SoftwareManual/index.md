@@ -29,7 +29,16 @@
 ## Routines for Hyperbolic Problems
 
 ## Test Problems
+
 [Compute The Analytic Solution of the Logistic Differential Equation](https://KensieCarr.github.io/Math-5620/SoftwareManual/LogisticDifferentialEquation)
 
 [Spring Mass Systems](https://KensieCarr.github.io/Math-5620/SoftwareManual/SpringMassSystems)
 ## Appendix
+
+[Norm of a Matrix](https://KensieCarr.github.io/Math-5620/SoftwareManual/NormOfMatrix)
+
+[Compute Largest Eigenvalue of Matrix](https://KensieCarr.github.io/Math-5620/SoftwareManual/ComputeLargestEigenvalue)
+
+[Laplace Equation Using 5-Point Stencil](https://KensieCarr.github.io/Math-5620/SoftwareManual/LaplaceEquation5Point)
+
+[Laplace Equation Using 9-Point Stencil](https://KensieCarr.github.io/Math-5620/SoftwareManual/LaplaceEquation9Point)
