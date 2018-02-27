@@ -20,9 +20,54 @@ A = matrix that is n by n
 **Output:** 
 
 Largest eigenvalue of the matrix
+\left[ \begin{matrix} \end{matrix} \right]
 
 **Usage/Example:**
+If I do six iterations and I have the matrix 
+{% raw %}
+\\( A = \left[ \begin{matrix} 
+2 & -12 \\
+1 & -5 
+\end{matrix} \right] \\ 
+\text{Beginning with an initial nonzero approximation}
+x_0 = \left[ \begin{matrix} 1 \\ 1 \end{matrix} \right] \\
+\\
+x_1 = Ax_0 = \left[ \begin{matrix} 2 & -12 \\ 1 & -5 \end{matrix} \right] 
+\left[ \begin{matrix} 1 \\ 1 \end{matrix} \right] =  
+\left[ \begin{matrix} -10 \\ 4 \end{matrix} \right] 
+\rightarrow -4\left[ \begin{matrix} 2.50 \\ 1.00 \end{matrix} \right] \\ 
 
+x_2 = Ax_1 = \left[ \begin{matrix} 2 & -12 \\ 1 & -5 \end{matrix} \right]
+\left[ \begin{matrix} -10 \\ -4 \end{matrix} \right]
+= \left[ \begin{matrix} 28 \\ 10 \end{matrix} \right]
+\rightarrow 10\left[ \begin{matrix} 2.80 \\ 1.00 \end{matrix} \right] \\ 
+
+x_3 = Ax_2 = \left[ \begin{matrix} 2 & -12 \\ 1 & -5 \end{matrix} \right]
+\left[ \begin{matrix} 28 \\ 10 \end{matrix} \right]
+= \left[ \begin{matrix} -64 \\ -22 \end{matrix} \right]
+\rightarrow -22\left[ \begin{matrix} 2.91 \\ 1.00 \end{matrix} \right] \\ 
+
+x_4 = Ax_3 = \left[ \begin{matrix} 2 & -12 \\ 1 & -5 \end{matrix} \right]
+\left[ \begin{matrix} -64 \\ -22 \end{matrix} \right]
+= \left[ \begin{matrix} 136 \\ 46 \end{matrix} \right]
+\rightarrow 46\left[ \begin{matrix} 2.96 \\ 1.00 \end{matrix} \right] \\ 
+
+x_5 = Ax_4 = \left[ \begin{matrix} 2 & -12 \\ 1 & -5 \end{matrix} \right]
+\left[ \begin{matrix} 136 \\ 46 \end{matrix} \right]
+= \left[ \begin{matrix} -280 \\ -94 \end{matrix} \right]
+\rightarrow -94\left[ \begin{matrix} 2.98 \\ 1.00 \end{matrix} \right] \\ 
+
+x_6 = Ax_5 = \left[ \begin{matrix} 2 & -12 \\ 1 & -5 \end{matrix} \right]
+\left[ \begin{matrix} -280 \\ -94 \end{matrix} \right]
+= \left[ \begin{matrix} 568 \\ 190 \end{matrix} \right]
+\rightarrow 190\left[ \begin{matrix} 2.99 \\ 1.00 \end{matrix} \right] \\ 
+Ax = \left[ \begin{matrix} 2 & -12 \\ 1 & -5 \end{matrix} \right]\left[ \begin{matrix} 2.99 \\ 1.00 \end{matrix} \right] = \left[ \begin{matrix} -6.02 \\ -2.01 \end{matrix} \right] \\ 
+Ax * x = (-6.02)(2.99) + (-2.01)(1) = -20.0 \\ 
+x * x = (2.99)(2.99) + (1)(1) = 9.94 \\ 
+\lambda = \frac{Ax * x}{x*x} = \frac{-20.0}{9.94} = -2.01 \\ 
+\lambda = -2
+\\)
+{% endraw %}
 
 **Implementation/Code:** 
 ```c++
