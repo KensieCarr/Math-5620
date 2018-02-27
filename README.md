@@ -1,6 +1,13 @@
 ## Welcome to GitHub Pages
 
 [Software Manual](https://KensieCarr.github.io/Math-5620/SoftwareManual/index)
+
+### Latex Code
+
+{% raw %}
+\\( \frac{d}{dx}k(x)\frac{du}{dx} = f(x),\ x \in (a,b) \\)
+{% endraw %}
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
