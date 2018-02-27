@@ -1,31 +1,19 @@
-# Homework 3
-## Problem 2
-**Routine Name:**           Compute Largest Eigenvalue
+#include<iostream>
+#include<cmath>
+#include<vector>
 
-**Author:** Kensie Carr
+using namespace std;
+float findEigenvalue(int order, int iter);
 
-**Language:** C++
+int main() {
+    int iter, order;
+    cout << "Enter the order of the matrix: ";
+    cin >> order;
+    cout << "Enter the number of iterations: ";
+    cin >> iter;
+    findEigenvalue(order, iter);
+}
 
-**Description/Purpose:** 
-
-This routine will compute the largest eigenvalue of a given matrix 
-{% raw %}
-\\( A \in R^{n \times n} \\)
-{% endraw %} using a power method iteration.
-
-**Input:**
-
-A = matrix that is n by n
-
-**Output:** 
-
-Largest eigenvalue of the matrix
-
-**Usage/Example:**
-
-
-**Implementation/Code:** 
-```c++
 float findEigenvalue(int order, int iter){
     float matrix[10][10];
     float x[10], y[10], z[10];
@@ -68,8 +56,3 @@ float findEigenvalue(int order, int iter){
     }
     return eigenvalue;
 }
-
-```
-[full code](https://KensieCarr.github.io/Math-5620/SoftwareManual/ComputeLargestEigenvalue.cpp)
-
-**Last Modified:** February/2018
