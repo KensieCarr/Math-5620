@@ -27,7 +27,7 @@ A = matrix that is m by n
 **Usage/Example:**
 The 1-norm is computed using the equation 
 {% raw %}
-(\\ ||A||_1 = max_{1 \leq j \leq s} \sum_{i=1}^s |a_{ij}|.
+\\( ||A||_1 = max_{1 \leq j \leq s} \sum_{i=1}^s |a_{ij}|.
 \text{ The ∞-norm is computed using the equation}
 ||A||_\infty = max_{1 \leq i \leq s} \sum_{j=1}^s |a_{ij} |. 
 \text{ Say if I'm given the matrix } 
