@@ -30,9 +30,9 @@ The 1-norm is computed using the equation
 
 {% raw %}
 \\(
-||A||_1 = max_{1 \leq j \leq s} \sum_{i=1}^s |a_{ij}|.
+\|\|A\|\|_1 = max_{1 \leq j \leq s} \sum_{i=1}^s \|a_{ij}\|.
 \text{ The } \infty\text{-norm is computed using the equation}
-||A||_\infty = max_{1 \leq i \leq s} \sum_{j=1}^s |a_{ij} |. 
+\|\|A\|\|_\infty = max_{1 \leq i \leq s} \sum_{j=1}^s \|a_{ij} \|. 
 \text{ Say if I'm given the matrix } 
 A = \begin{bmatrix}
 2 & 3 \\ 
