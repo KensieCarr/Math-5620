@@ -39,7 +39,7 @@ A = \left[ \begin{matrix}
 2 & 3 \\ 
 4 & 4 \end{matrix} \right] \text{ then the 1-norm is 7 and the } \infty\text{-norm is 8.}
 
-/)
+\)
 {% endraw %}
 
 **Implementation/Code:** 
