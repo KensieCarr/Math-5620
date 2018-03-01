@@ -20,7 +20,6 @@ A = matrix that is n by n
 **Output:** 
 
 Largest eigenvalue of the matrix
-\left[ \begin{matrix} \end{matrix} \right]
 
 **Usage/Example:**
 If I do six iterations and I have the matrix 
