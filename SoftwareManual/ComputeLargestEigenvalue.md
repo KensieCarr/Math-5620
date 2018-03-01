@@ -24,8 +24,12 @@ Largest eigenvalue of the matrix
 
 **Usage/Example:**
 If I do six iterations and I have the matrix 
+
 {% raw %}
-\\( A = \left[ \begin{matrix} 
+
+\\(
+    
+A = \left[ \begin{matrix} 
 2 & -12 \\
 1 & -5 
 \end{matrix} \right] \\ 
@@ -66,7 +70,9 @@ Ax * x = (-6.02)(2.99) + (-2.01)(1) = -20.0 \\
 x * x = (2.99)(2.99) + (1)(1) = 9.94 \\ 
 \lambda = \frac{Ax * x}{x*x} = \frac{-20.0}{9.94} = -2.01 \\ 
 \lambda = -2
+
 \\)
+
 {% endraw %}
 
 **Implementation/Code:** 
