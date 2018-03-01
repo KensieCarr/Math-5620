@@ -27,10 +27,9 @@ A = matrix that is m by n
 **Usage/Example:**
 The 1-norm is computed using the equation 
 
+
 {% raw %}
-\\\\(
-
-
+\\(
 ||A||_1 = max_{1 \leq j \leq s} \sum_{i=1}^s |a_{ij}|.
 \text{ The } \infty\text{-norm is computed using the equation}
 ||A||_\infty = max_{1 \leq i \leq s} \sum_{j=1}^s |a_{ij} |. 
@@ -38,9 +37,9 @@ The 1-norm is computed using the equation
 A = \begin{bmatrix}
 2 & 3 \\ 
 4 & 4 \end{bmatrix} \text{ then the 1-norm is 7 and the } \infty\text{-norm is 8.}
-
-\\\\)
+\\)
 {% endraw %}
+
 
 **Implementation/Code:** 
 ```c++
